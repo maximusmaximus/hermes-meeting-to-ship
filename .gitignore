@@ -1,0 +1,15 @@
+# Meeting data and artifacts
+meetings/
+
+# Environment and secrets
+.env
+*.env
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+
+# Logs and scratch tests
+*.log
+test_*.txt
+scratch/
