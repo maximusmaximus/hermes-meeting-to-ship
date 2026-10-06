@@ -1,0 +1,13 @@
+name: meeting-to-ship
+description: Calendly intent, Read.ai extract, MVP slice, then GitHub PR.
+skills:
+  - meeting-workflow-setup
+  - calendly-meeting-intent
+  - readai-signal-extract
+  - meeting-to-mvp-slice
+  - slice-to-build-prompt
+  - github-from-slice
+instruction: |
+  Run setup first. Do not skip the Calendly join.
+  Booked objectives are the hypothesis. Transcript quotes are the evidence.
+  Do not create a repo or open a PR until check_github.sh passes.
